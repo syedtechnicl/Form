@@ -48,7 +48,7 @@ const App = () => {
         <label htmlFor="">Password</label>
         <br />
         <input
-          type="text"
+          type="password"
           className="form-control"
           placeholder="Enter Password"
           onChange={(e) => setpass(e.target.value)}
@@ -63,8 +63,8 @@ const App = () => {
           return (
             <>
               <div key={id}>
-                <p>{email}</p>
-                <p>{pass}</p>
+                <p className="text-white">{email}</p>
+                <p className="text-white">{pass}</p>
               </div>
             </>
           );
